@@ -12,3 +12,5 @@ function set() {
         div.style[ cssProperty ] = cssValue;
     }
 }
+
+document.querySelector('#set').addEventListener('click',set);
